@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B59A9A">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="React Test"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:fontFamily="casual"
+        android:text="Game1"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/start_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:fontFamily="casual"
+        android:text="Game2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/start_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="175dp"
+        android:fontFamily="casual"
+        android:text="Game3"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="307dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/kisspng_emoji_index_finger_thumb_iphone_index_finger_5b557fe09e9706_7220774415323299526496" />
+
+    <TextView
+        android:id="@+id/faq_text"
+        android:layout_width="288dp"
+        android:layout_height="173dp"
+        android:layout_centerInParent="true"
+        android:background="#684747"
+        android:elevation="2dp"
+        android:fontFamily="casual"
+        android:text="@string/game1_n_game2_ngame3"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/faq_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="FAQ" />
+
+</RelativeLayout>

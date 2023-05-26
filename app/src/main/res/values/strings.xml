@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ReactTest</string>
+    <string name="game1_n_game2_ngame3">Game1 - нужно нажимать на круги на экрнае;\n Game2 - нужно как можно быстрее нажать на экран, когда он будет зеленым;\nGame3 - нужно нажимать на символы, соответсвующие тем, что появляются на экране.</string>
+</resources>
